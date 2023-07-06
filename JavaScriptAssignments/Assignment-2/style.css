@@ -1,0 +1,15 @@
+.content{
+    width: 40%;
+    background-color: skyblue;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid gray;
+    text-align: center;
+}
+h2{
+    margin: 0px;
+    color: white;
+}
+#id3{
+    cursor: pointer;
+}

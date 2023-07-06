@@ -1,0 +1,21 @@
+.main{
+    width: 20%;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 221, 221);
+    text-align: center;
+}
+.main h3{
+    margin: 0px;
+    color: red;
+}
+.main input{
+    background-color: bisque;
+    width: 85%;
+}
+.btn{
+    width: 20px;
+}

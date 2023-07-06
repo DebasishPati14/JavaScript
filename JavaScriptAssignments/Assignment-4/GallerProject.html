@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="inpu">
+        <label>Please select number of pictures</label>
+        <input type="text" id="inp"><h4>(From 1 to 10)</h4>
+        <button onclick="getRange()">Submit</button>
+        <div id="wrongInput">
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="img-box">
+            <img class="sliderImg" src="images/john.JPG" alt="sorry Not found" height="100%" width="100%">
+        </div>    
+<button class="btn rt" onclick="next()">></button>
+<button class="btn lt" onclick="prev()"><</button>
+</div>
+
+<div id="details" style="font-size: larger;">
+    <b>John Mathew</b><br>
+    <b>ITT/EMP/1075</b><br>
+    <b>Sr. Technical Lead</b>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

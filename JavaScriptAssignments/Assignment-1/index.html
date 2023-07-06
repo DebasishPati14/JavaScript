@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Event Handling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h2><u>Most Common Events in JS</u></h2>
+        <br>
+        <button onclick="changeText(this)">ClickMe</button><br><br>
+        <input type="text" id="fname" onchange="upperCase()"   placeholder="onChange">
+        <br><br>
+        <div id="mOut"  onmouseout="mOut(this)" >Mouse Out</div><br>
+        <div id="mOver" onmouseover="mOver(this)" style="background-color: lime;" >Mouse Over</div>
+    
+        <br>
+            <input type="text" id="lname" onfocus="focous()" placeholder="onFocous"><br><br>
+            <button id="dbl"
+            ondblclick="double()">Double Click</button>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

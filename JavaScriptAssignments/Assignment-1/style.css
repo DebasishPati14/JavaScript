@@ -1,0 +1,23 @@
+.content{
+    width: 40%;
+    background-color: violet;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid gray;
+    text-align: center;
+}
+h2{
+    margin: 0px;
+    color: white;
+}
+p{
+    cursor: pointer;
+}
+#mOver{
+    color: white;
+    background-color: tomato;
+}
+#mOut{
+    color: white;
+    background-color: tomato;
+}

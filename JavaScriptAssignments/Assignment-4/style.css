@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+}
+img{
+    width: 100%;
+    height: 420px;
+}
+.slider{
+    width: 55%;
+    height: 420px;
+    margin: 5px auto;
+    position: relative;
+    border: 10px solid white;
+    box-shadow: 0px 0px 5px 2px #999;
+}
+.btn{
+    padding: 20px;
+    border:  none;
+    background-color: aqua;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top:40%;
+}
+.rt{
+    border-radius:  8px 0px 0px 8px;
+    margin-left: 92%;
+}
+.lt{
+    border-radius:  0px 8px 8px 0px;
+}
+.inpu{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    margin: 20px auto;
+}
+.inpu label{
+    font-size: large;
+}
+.inpu input{
+    width: 25px;
+}
+.inpu h4{
+    color: red;
+    margin: 0px;
+    display: inline;
+}
+.inpu button{
+    color: white;
+    background-color: seagreen;
+}
+#details{
+    width: 35%;
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    margin: 20px auto;
+}
